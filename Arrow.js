@@ -43,4 +43,4 @@ const chai = () => {
 
 const addTwoNumbers = () => ({username: "navneet"})
 
-console.log(addTwoNumbers());
+// console.log(addTwoNumbers());

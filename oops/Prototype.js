@@ -10,16 +10,16 @@ let heropower = {
 }
 
 Object.prototype.navneet = function(){
-    console.log('Nsvneet is present every where');
+    console.log('Navneet is present every where');
 }
 
 Array.prototype.nav = function(){
     console.log('Nsvneet says hello');
 }
 
-// heropower.navneet()
-// myHero.navneet()
-// myHero.nav()
+heropower.navneet()
+myHero.navneet()
+myHero.nav()
 // heropower.nav() //heropower.nav is not a function output...
 
 
@@ -56,6 +56,8 @@ String.prototype.truelength = function(){
     console.log(`the true length of string is ${this.trim().length}`)
 }
 
-anothername.truelength()
-"Navneet".truelength()
-"chirag".truelength()
+// anothername.truelength()
+// "Navneet".truelength()
+// "chirag".truelength()
+
+

@@ -42,7 +42,7 @@ JsUser.email = "navneet@chatgpt.com"
 */
 
 JsUser.greeting = function(){
-    console.log("Hello JS User");
+    // console.log("Hello JS User");
 }
 /*
 output :- console.log(JsUser.greeting());:----   
@@ -50,7 +50,7 @@ Hello JS User
 undefined
 -------------------------------------------------------------------------
 console.log(JsUser.greeting);:----- [Function (anonymous)]// output
-here functtion did not exicute but only reference will came back...
+here function did not exicute but only reference will came back...
 */
 
 JsUser.greetingTwo = function(){
@@ -87,7 +87,7 @@ const regularUser = {
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "c"}
 
-// const obj3 = {obj1, obj2} // same porblem which is come in array{ obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'c' } }
+// const obj3 = {obj1, obj2} // same problem which is come in array{ obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'c' } }
 
 // const obj3 = Object.assign({}, obj1, obj2) //{ '1': 'a', '2': 'b', '3': 'a', '4': 'c' } //{} target // obj1, obj2 :- sources
 
@@ -123,10 +123,10 @@ const course = {
     courseInstructor: "hitesh",
 }
 
-// course.courseInstructor;
+course.courseInstructor;
 
-const{courseInstructor: instrctor} = course
-console.log(instrctor);
+// const{courseInstructor: instrctor} = course
+// console.log(instrctor);
 0
 
 
